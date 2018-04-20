@@ -8,7 +8,7 @@
 
 PS.适用于 1024x768 以上分辨率显示器
 
-================translate by google================
+================Translated by Google================
 
 Web work arranged by the teacher:
 
