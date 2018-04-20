@@ -6,7 +6,8 @@
 有基于CSS的动画
 未使用任何框架
 
-PS.适用于 1024x768 以上分辨率显示器
+PS.适用于 1024x768 以上分辨率显示器（电脑）
+   对IPhone5/SE适应不是很好（超出屏幕宽度） 
 
 ================Translated by Google================
 
@@ -17,4 +18,5 @@ Responsive design for mobile devices (small screen devices)
 CSS-based animation
 Not using any frame
 
-PS. Applies to 1024x768 or higher resolution monitors
+PS. Suitable for 1024x768 or higher resolution monitors (computers)
+    Adaptation to IPhone 5/SE is not very good (out of screen width)
