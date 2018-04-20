@@ -1,0 +1,157 @@
+@keyframes sildedown {
+    from {
+        height: 0;
+    }
+    to {
+        height: 100%;
+    }
+}
+
+@keyframes scaleX {
+    0% {
+        transform: scaleX(0.9);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+@keyframes rotateY {
+    from {
+        transform: rotateY(360deg);
+    }
+    to {
+        transform: rotateY(0deg);
+    }
+}
+
+@keyframes transcale {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes color2green {
+    from {
+        background-color: rgb(255, 65, 65);
+    }
+    to {
+        background-color: #6dd372;
+    }
+}
+
+@keyframes c2gscale {
+    from {
+        transform: scale(4);
+        background-color: rgb(255, 65, 65);
+    }
+    to {
+        transform: scale(1);
+        background-color: #6dd372;
+    }
+}
+
+@keyframes progress1 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 55%;
+    }
+}
+
+@keyframes progress2 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 65%;
+    }
+}
+
+@keyframes progress3 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 50%;
+    }
+}
+
+@keyframes progress4 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 40%;
+    }
+}
+
+
+/*target load*/
+
+.info_block:target {
+    animation: sildedown 0.5s;
+}
+
+#Con:target {
+    animation: scaleX 0.2s;
+}
+
+
+/*skl progressbar*/
+
+#Skl:target .progress-bar1 {
+    animation: progress1 1s;
+}
+
+#Skl:target .progress-bar2 {
+    animation: progress2 1s;
+}
+
+#Skl:target .progress-bar3 {
+    animation: progress3 1s;
+}
+
+#Skl:target .progress-bar4 {
+    animation: progress4 1s;
+}
+
+
+/*hob*/
+
+#Hob:target .my_item1 {
+    animation: transcale 0.7s;
+}
+
+#Hob:target .my_item2 {
+    animation: transcale 0.9s;
+}
+
+#Hob:target .my_item3 {
+    animation: transcale 1.1s;
+}
+
+
+/*title*/
+
+@media screen and (min-width:56em) {
+    .title_div h1:hover {
+        animation: rotateY 0.5s;
+    }
+    #Job:target .title_div h1 {
+        animation: c2gscale 1.2s;
+    }
+}
+
+
+/*job*/
+
+#Job:target .job_div #P1 {
+    animation: color2green 1.6s;
+}

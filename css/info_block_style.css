@@ -1,0 +1,167 @@
+:root {
+    --width-em: 56em;
+}
+
+h1 {
+    color: #333;
+    z-index: 5;
+    text-align: center;
+}
+
+@media screen and (min-width: 56em) {
+    h1 {
+        height: 140px;
+        width: 140px;
+        line-height: 140px;
+        border-radius: 50%;
+        border: 5px white solid;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h1 {
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    #eduT {
+        background-color: dodgerblue;
+        background-image: url(../img/edu.png);
+        box-shadow: 0px 0px 20px #013170;
+    }
+    #hobT {
+        background-color: palevioletred;
+        background-image: url(../img/heart.png);
+        box-shadow: 0px 0px 20px #D670CC;
+    }
+    #sklT {
+        background-color: gray;
+        background-image: url(../img/gear.png);
+        box-shadow: 0px 0px 20px #D1D1D1;
+    }
+    #jobT {
+        background-color: #6dd372;
+        background-image: url(../img/right.png);
+        box-shadow: 0px 0px 20px #6dd372;
+    }
+    #conT {
+        background-color: #333;
+        color: rgb(255, 255, 255);
+        background-image: url(../img/phone.png);
+        box-shadow: 0px 0px 20px #D1D1D1;
+    }
+}
+
+@media screen and (max-width: 56em) {
+    .title_div h1 {
+        padding-left: 0;
+        opacity: 0.8;
+        text-align: center;
+        color: white;
+        margin: 2px;
+    }
+    #eduT {
+        background-color: dodgerblue;
+        box-shadow: 0px 0px 20px #013170;
+    }
+    #hobT {
+        background-color: palevioletred;
+        box-shadow: 0px 0px 20px #D670CC;
+    }
+    #sklT {
+        background-color: gray;
+        box-shadow: 0px 0px 20px #D1D1D1;
+    }
+    #jobT {
+        background-color: #6dd372;
+        box-shadow: 0px 0px 20px #6dd372;
+    }
+    #conT {
+        background-color: #333;
+        box-shadow: 0px 0px 20px #D1D1D1;
+    }
+}
+
+.info_block {
+    position: relative;
+    float: left;
+    display: block;
+    z-index: 9;
+    padding: 0.5em;
+    height: calc(100% - 55px);
+    width: calc(100% - 1em);
+    opacity: 1;
+    /*border: 3px white solid;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info_block {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+/*#Nam,
+#Edu,#Hob,#Skl,#Job,#Con 
+{
+    display: none;
+}*/
+
+@media screen and (max-width: 56em) {
+    .info_block {
+        margin-top: 0em;
+        text-align: center;
+    }
+}
+
+.info_li {
+    line-height: 2em;
+    list-style-type: none;
+}
+
+
+/*Edu Setting*/
+
+#Edu {
+    background-color: rgb(200, 200, 200);
+    color: #333;
+    background-image: url(../img/ocean.jpg);
+}
+
+
+/*Hob Setting*/
+
+#Hob {
+    background-color: rgb(255, 255, 255);
+    background-image: url(../img/pink.jpg);
+    color: #333;
+}
+
+
+/*Skl Setting*/
+
+#Skl {
+    background-color: rgb(200, 200, 200);
+    background-image: url(../img/iron.jpg);
+    color: #333;
+}
+
+
+/*Job Setting*/
+
+#Job {
+    background-color: rgb(255, 255, 255);
+    background-image: url(../img/plan.jpg);
+    color: #333;
+}
+
+
+/*Con Setting*/
+
+#Con {
+    background-color: rgb(200, 200, 200);
+    background-image: url(../img/start.jpg);
+    color: #333;
+}
